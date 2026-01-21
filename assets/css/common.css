@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: quicksand, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 100%;
+}
+
+.HeaderContainer {
+  padding: 20px 80px;
+  width: 100%;
+  float: left;
+}
+
+.HeaderBlock {
+  float: left;
+  width: 50%;
+}
+
+.HeaderBlock ul {
+  list-style: none;
+  float: right;
+}
+
+.HeaderBlock ul li {
+  color: #062732;
+  display: inline-block;
+  padding: 0px 16px;
+  cursor: pointer;
+}
+
+.HeaderBlock button {
+  padding: 10px 36px;
+  border: none;
+  background-color: #19ba59;
+  color: white;
+  font-weight: 600;
+  font-size: bold;
+  height: 50px;
+  border-radius: 8px;
+}

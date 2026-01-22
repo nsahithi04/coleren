@@ -22,6 +22,14 @@
   padding-bottom: 120px;
 }
 
+.section-4 {
+  float: left;
+  background: url(../images/section-4.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 180px;
+}
+
 /* ABOUT US */
 
 .about {
@@ -100,6 +108,7 @@
   font-size: 18px;
   font-weight: 300;
   text-align: center;
+  line-height: 27px;
 }
 
 .sec2-block4 {
@@ -112,6 +121,7 @@
   color: white;
   font-weight: 300;
   font-size: 20px;
+  line-height: 27px;
 
   display: flex;
   align-items: center;
@@ -188,9 +198,6 @@
   font-weight: 500;
   font-size: 24px;
 }
-.sec3-block4 p {
-  padding-bottom: 20px;
-}
 
 .sec3-block4-box1 {
   background: url(../images/block-3-1.png) no-repeat center center;
@@ -200,6 +207,7 @@
   grid-template-rows: auto 1fr;
   padding: 40px 50px;
   justify-content: start;
+  gap: 20px;
 }
 
 .sec3-block4-box2 {
@@ -209,6 +217,7 @@
   grid-template-rows: auto 1fr;
   padding: 40px 50px;
   justify-content: start;
+  gap: 20px;
 }
 
 .sec3-block4-box3 {
@@ -218,6 +227,7 @@
   grid-template-rows: auto 1fr;
   padding: 40px 50px;
   justify-content: start;
+  gap: 20px;
 }
 
 .sec3-block4 img {
@@ -225,4 +235,73 @@
   border-radius: 50%;
 
   background-color: white;
+}
+
+/* Advantages */
+
+.Advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 40px;
+}
+
+.sec4-block2 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sec4-block3 {
+  display: grid;
+  grid-template-columns: 660px 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.sec4-block3 img {
+  padding: 6px 6px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.sec4-block3-box1 {
+  color: #ffffff;
+  background: url(../images/block-4-1.png) no-repeat center center;
+  background-size: contain;
+  height: 400px;
+  padding: 40px 50px;
+  line-height: 27px;
+}
+
+.sec4-block3-box1 div {
+  width: 45%;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 20px;
+}
+
+.sec4-block3-box1 .box1-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sec4-block3-box2 {
+  color: #053539;
+  background: url(../images/block-4-2.png) no-repeat center center;
+  background-size: contain;
+  height: 400px;
+  padding: 40px 50px;
+
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto 1fr;
 }

@@ -11,8 +11,18 @@
   background: url(../images/section-2.png) no-repeat center center;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 2/ 1;
 }
+
+.section-3 {
+  float: left;
+  background: url(../images/section-3.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 192 / 107;
+}
+
+/* ABOUT US */
 
 .about {
   padding-top: 90px;
@@ -60,6 +70,8 @@
   border-radius: 8px;
 }
 
+/* SOLUTION */
+
 .solution {
   padding-top: 120px;
   display: flex;
@@ -70,10 +82,6 @@
 }
 
 .greenButton2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
   padding: 10px 20px;
   background-color: #a4fc2b;
   text-align: center;
@@ -121,8 +129,100 @@
   background-color: white;
   color: #062732;
   font-weight: 600;
-  font-size: bold;
   height: 50px;
   border-radius: 8px;
   margin-top: -35px;
+}
+
+/* BENEFITS */
+
+.Benefits {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sec3-block2 {
+  color: #053539;
+  font-size: 32px;
+  text-align: center;
+}
+
+.sec3-block3 {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: auto auto;
+}
+
+.salesTeam {
+  border-radius: 8px;
+  border: none;
+  background: #19ba59;
+  color: white;
+  font-weight: 600;
+  padding: 10px 36px;
+  height: 40px;
+  font-weight: 400;
+}
+
+.productTeam {
+  border-radius: 8px;
+  border: 1px solid #062732;
+  background: transparent;
+  padding: 10px 36px;
+  height: 40px;
+  color: #062732;
+  font-weight: 400;
+}
+
+.sec3-block4 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 260px 260px 260px;
+  color: white;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-style: SemiBold;
+  font-size: 24px;
+}
+.sec3-block4 p {
+  padding-bottom: 20px;
+}
+
+.sec3-block4-box1 {
+  background: url(../images/block-3-1.png) no-repeat center center;
+  height: 360px;
+  background-size: contain;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 40px 30px;
+  justify-content: start;
+}
+
+.sec3-block4-box2 {
+  background: url(../images/block-3-2.png) no-repeat center center;
+  background-size: contain;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 40px 30px;
+  justify-content: start;
+}
+
+.sec3-block4-box3 {
+  background: url(../images/block-3-3.png) no-repeat center center;
+  background-size: contain;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 40px 30px;
+  justify-content: start;
+}
+
+.sec3-block4 img {
+  padding: 6px 6px;
+  border-radius: 50%;
+
+  background-color: white;
 }

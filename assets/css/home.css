@@ -3,7 +3,7 @@
   background: url(../images/section-1.png) no-repeat center center;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  padding-bottom: 300px;
 }
 
 .section-2 {
@@ -11,7 +11,7 @@
   background: url(../images/section-2.png) no-repeat center center;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 2/ 1;
+  padding-bottom: 120px;
 }
 
 .section-3 {
@@ -19,13 +19,13 @@
   background: url(../images/section-3.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 2 / 1;
+  padding-bottom: 120px;
 }
 
 /* ABOUT US */
 
 .about {
-  padding-top: 90px;
+  padding-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,15 +46,15 @@
 .sec1-block2 {
   color: white;
   padding-top: 30px;
-  font-size: 52px;
+  font-size: 58px;
   text-align: center;
 }
 
 .sec1-block3 {
   color: white;
   padding-top: 30px;
-  padding-bottom: 50px;
-  font-size: 18px;
+  padding-bottom: 60px;
+  font-size: 26px;
   font-weight: 400;
   text-align: center;
 }
@@ -143,7 +143,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .sec3-block2 {
@@ -182,11 +182,10 @@
 .sec3-block4 {
   display: grid;
   gap: 30px;
-  grid-template-columns: 260px 260px 260px;
+  grid-template-columns: 300px 300px 300px;
   color: white;
   font-family: Quicksand;
   font-weight: 500;
-  font-style: SemiBold;
   font-size: 24px;
 }
 .sec3-block4 p {
@@ -199,7 +198,7 @@
   background-size: contain;
   display: grid;
   grid-template-rows: auto 1fr;
-  padding: 40px 30px;
+  padding: 40px 50px;
   justify-content: start;
 }
 
@@ -208,7 +207,7 @@
   background-size: contain;
   display: grid;
   grid-template-rows: auto 1fr;
-  padding: 40px 30px;
+  padding: 40px 50px;
   justify-content: start;
 }
 
@@ -217,7 +216,7 @@
   background-size: contain;
   display: grid;
   grid-template-rows: auto 1fr;
-  padding: 40px 30px;
+  padding: 40px 50px;
   justify-content: start;
 }
 

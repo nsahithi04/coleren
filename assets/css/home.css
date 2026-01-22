@@ -103,9 +103,10 @@
 }
 
 .sec2-block4 {
+  border: 1px solid #136259;
   background-color: #093e41;
   border-radius: 20px;
-  padding: 50px 40px;
+  padding: 70px 40px;
   padding-top: 10px;
   text-align: center;
   color: white;

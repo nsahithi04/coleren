@@ -30,6 +30,9 @@ header {
   float: left;
   width: 50%;
 }
+.HeaderBlock img {
+  padding-top: 10px;
+}
 
 .HeaderBlock ul {
   list-style: none;
@@ -52,4 +55,35 @@ header {
   font-size: bold;
   height: 50px;
   border-radius: 8px;
+}
+
+footer {
+  width: 100%;
+}
+
+.FooterContainer {
+  background-color: #053539;
+  padding: 30px 80px;
+  width: 100%;
+  float: left;
+}
+
+.FooterBlock {
+  float: left;
+  width: 50%;
+}
+
+.FooterBlock ul {
+  padding-top: 5px;
+  list-style: none;
+  float: right;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.FooterBlock ul li {
+  color: #ffffff;
+  display: inline-block;
+  padding: 0px 16px;
+  cursor: pointer;
 }

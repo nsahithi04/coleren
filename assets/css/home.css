@@ -30,6 +30,15 @@
   padding-bottom: 180px;
 }
 
+.section-5 {
+  float: left;
+  background: url(../images/section-5.jpg) no-repeat center center;
+  background-position: center -350px;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 120px;
+}
+
 /* ABOUT US */
 
 .about {
@@ -38,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
 .greenButton1 {
@@ -53,18 +63,16 @@
 
 .sec1-block2 {
   color: white;
-  padding-top: 30px;
   font-size: 58px;
   text-align: center;
 }
 
 .sec1-block3 {
   color: white;
-  padding-top: 30px;
-  padding-bottom: 60px;
   font-size: 26px;
   font-weight: 400;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .sec1-block4 button {
@@ -304,4 +312,52 @@
   display: grid;
   gap: 20px;
   grid-template-rows: auto 1fr;
+}
+
+/* insights */
+
+.Insights {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  width: 55%;
+  margin: 0 auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.sec5-block2 {
+  font-size: 40px;
+  text-align: center;
+  color: #062732;
+}
+
+.sec5-block3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.sec5-block4 {
+  border: none;
+  background-color: #f4f4f4;
+  color: #acacac;
+  font-size: 16px;
+  padding: 15px 76px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+}
+
+.sec5-block5 button {
+  border: none;
+  background-color: #19ba59;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 15px 36px;
+  border-radius: 8px;
 }

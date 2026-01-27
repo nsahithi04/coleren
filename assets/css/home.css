@@ -371,7 +371,7 @@
   background-color: #f4f4f4;
   color: #acacac;
   font-size: 16px;
-  padding: 15px 76px;
+  padding: 15px 0px;
   border-radius: 8px;
   text-align: center;
   width: 80%;
@@ -456,7 +456,6 @@
   }
 
   .sec4-block3-box1 .box1-description {
-    font-size: 13px;
     font-weight: 500;
     font-size: 13.5px;
     line-height: 20.25px;
@@ -471,5 +470,149 @@
   }
   .sec5-block5 button {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .section-1 {
+    background: url(../images/mobile-section1.png) no-repeat center top;
+    padding-bottom: 300px;
+  }
+
+  .section-2 {
+    background: url(../images/mobile-section2.png) no-repeat center top;
+    padding-bottom: 38px;
+  }
+
+  .section-3 {
+    background: url(../images/mobile-section3.jpg) no-repeat center top;
+    padding-bottom: 38px;
+  }
+
+  .section-4 {
+    background: url(../images/mobile-section4.png) no-repeat center top;
+    padding-bottom: 30px;
+  }
+
+  .section-5 {
+    background: url(../images/mobile-section5.jpg) no-repeat center top;
+    padding-bottom: 50px;
+  }
+
+  .about {
+    padding-top: 80px;
+    gap: 30px;
+    width: 85%;
+  }
+
+  .sec1-block2 {
+    font-weight: 600;
+    font-size: 36px;
+    padding: 0px;
+  }
+
+  .sec1-block3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .solution {
+    padding-top: 60px;
+    width: 85%;
+  }
+
+  .sec2-block3 {
+    padding: 0px;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sec2-block4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+  }
+  .sec2-block4 button {
+    margin-top: -45px;
+  }
+
+  .Benefits {
+    padding-top: 70px;
+  }
+
+  .sec3-block3 {
+    grid-template-columns: 340px;
+  }
+  .sec3-block4 {
+    grid-template-columns: 1fr;
+  }
+  .sec3-block4-box1,
+  .sec3-block4-box2,
+  .sec3-block4-box3 {
+    height: 460px;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 40px 68px;
+    gap: 40px;
+  }
+
+  .sec3-block4 p {
+    width: 90%;
+  }
+
+  .Advantages {
+    padding-top: 70px;
+    width: 90%;
+  }
+
+  .sec4-block3 {
+    grid-template-columns: 1fr;
+    width: 100%;
+    font-weight: 600;
+  }
+  .sec4-block3 p {
+    font-size: 24px;
+  }
+  .sec4-block3-box1 {
+    background: url(../images/mob-sec4-b4-b1.png) no-repeat center center;
+    height: 575px;
+  }
+  .sec4-block3-box1 div {
+    width: 90%;
+    justify-self: center;
+    gap: 30px;
+  }
+
+  .sec4-block3-box1 .box1-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sec4-block3-box2 {
+    height: 460px;
+    padding: 30px 40px;
+    gap: 30px;
+  }
+
+  .Insights {
+    padding-top: 70px;
+    width: 80%;
+  }
+  .sec5-block2 {
+    font-size: 36px;
+  }
+  .sec5-block3 {
+    font-size: 16px;
+  }
+  .sec5-block4 {
+    padding: 15px 0;
+    font-size: 18px;
+    width: 100%;
+  }
+  .sec5-block5 button {
+    padding: 10px 88.5px;
   }
 }

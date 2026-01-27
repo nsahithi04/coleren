@@ -34,7 +34,6 @@
 .section-5 {
   float: left;
   background: url(../images/section-5.jpg) no-repeat center center;
-  background-position: center -350px;
   background-size: cover;
   width: 100%;
   padding-bottom: 120px;
@@ -404,7 +403,6 @@
   .section-3 {
     background: url(../images/tablet-section3.jpg) no-repeat center top;
     padding-bottom: 90px;
-    background-position: center -60px;
   }
 
   .section-4 {
@@ -414,7 +412,6 @@
   .section-5 {
     background: url(../images/tablet-section5.jpg) no-repeat center top;
     padding-bottom: 90px;
-    background-position: center -300px;
   }
 
   .about {

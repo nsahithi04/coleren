@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
 }
 
 body {
-  font-family: quicksand, sans-serif;
-  font-optical-sizing: auto;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -24,36 +24,47 @@ header {
   padding: 20px 80px;
   width: 100%;
   float: left;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.HeaderBlock {
+.HeaderBlock1 {
   float: left;
-  width: 50%;
 }
-.HeaderBlock img {
+.HeaderBlock2 {
+  float: right;
+}
+
+.HeaderBlock3 {
+  display: none;
+}
+
+.HeaderBlock1 img {
   padding-top: 10px;
 }
 
-.HeaderBlock ul {
+.HeaderBlock2 ul {
   list-style: none;
   float: right;
 }
 
-.HeaderBlock ul li {
+.HeaderBlock2 ul li {
   color: #062732;
   display: inline-block;
   padding: 0px 16px;
   cursor: pointer;
 }
 
-.HeaderBlock button {
+.HeaderBlock2 button {
+  font-family: Quicksand, sans-serif;
   padding: 10px 36px;
   border: none;
   background-color: #19ba59;
   color: white;
   font-weight: 600;
-  font-size: bold;
-  height: 50px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
   border-radius: 8px;
 }
 
@@ -68,22 +79,47 @@ footer {
   float: left;
 }
 
-.FooterBlock {
+.FooterBlock1,
+.FooterBlock2 {
   float: left;
   width: 50%;
 }
 
-.FooterBlock ul {
+.FooterBlock2 ul {
   padding-top: 5px;
   list-style: none;
   float: right;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
 }
 
-.FooterBlock ul li {
+.FooterBlock2 ul li {
   color: #ffffff;
   display: inline-block;
   padding: 0px 16px;
   cursor: pointer;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+  .HeaderBlock2 {
+    display: none;
+  }
+  .HeaderBlock3 {
+    display: block;
+    float: right;
+    padding-top: 10px;
+  }
+
+  .FooterBlock1 {
+    width: 20%;
+  }
+  .FooterBlock2 {
+    width: 80%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 402px) {
 }
